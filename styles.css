@@ -85,11 +85,25 @@ section h2{
   background-color: #ffd700;
   color: #000000;
 }
+.our-packages-h1{
+  color: black;
+}
 
 h2 {
   color: #343a40;
 }
-
+.events h2{
+  color: white;
+}
+.events{
+  background-color: #343a40;
+  color: white;
+  max-width: 300px;
+}
+.Other{
+  background-color: blue;
+  color: white;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -143,7 +157,9 @@ li {
 }
 
 
-
+#eventlocation{
+  margin-top: 10px;
+}
 
   header {
     background-color: #343a40;
@@ -151,11 +167,14 @@ li {
     padding: 20px;
     text-align: center;
   }
+  .label-for-service{
+    margin-top: 20px;
+  }
   .booksilver{
-    background-color: #f4f4f4;
+    background-color: lightblue;
     border: 1px black solid;
     display: inline;
-    padding: 5px;
+    padding: 10px 25px;
     border-radius: 20px;
     text-decoration: none;
     margin-bottom : 100px;
@@ -174,6 +193,10 @@ li {
   }
   .booking a:hover{
     color: #007bff;
+  }
+  .partytime-nav{
+    text-decoration: none;
+    color: #000000;
   }
   nav ul {
     list-style: none;
@@ -198,6 +221,7 @@ li {
   }
 
   section {
+    max-height: 1200px;
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;

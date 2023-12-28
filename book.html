@@ -10,7 +10,7 @@
 <body>
   <header>
     <nav>
-      <h1>Party Time</h1>
+      <a class="partytime-nav" href="index.html"><h1>Party Time</h1></a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -29,44 +29,46 @@
       <label for="eventName">Event Name :</label>
       <input type="text" id="eventName" required>
       <br>
+      
+      <label for="packageDropdown">Choose a package:</label>
+      <select id="packageDropdown" name="role" class="form-control" required="">
+          <option disabled="" selected="" value="">Select package</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+          <option value="custom">Custom</option>
+      </select>
       <br>
-      <br>
-      <select id="dropdown" name="role" class="form-control" required="">
-           
-        <option disabled="" selected="" value="">Select package</option>
-        <option value="student">Gold</option>
-        <option value="job">Silver</option>
-        <option value="learner">Bronze</option>
-        <option value="learner">Custom</option>
-
+    <br>
+    <br>
+                  <label for="eventDropdown">Choose an event:</label>
+                  <select id="eventDropdown" name="role" class="form-control" required="">
+                      <option disabled="" selected="" value="">Select an event</option>
+                      <option value="student">Themed events</option>
+                      <option value="job">Special celebrations</option>
+                      <option value="learner">Marquee parties</option>
+                      <option value="preferNo">Entertainment</option>
                   </select>
-    
-         <select id="dropdown" name="role" class="form-control" required="">
-           
-        <option disabled="" selected="" value="">Select an event</option>
-        <option value="student">Themed events</option>
-        <option value="job">Special celebrations</option>
-        <option value="learner">Marquee parties</option>
-        <option value="preferNo">Entertainment</option>
-        
-                  </select>
-                
-              <br>
-              <br>
-              <br>
+                  <br>
+               <br> 
+           <br>
+              
       <label for="eventLocation">Event Location :</label>
             <input type="text" id="eventlocation" required>
-      <br>
-      <br>
-      <select id="dropdown" name="role" class="form-control" required="">
-           
-        <option disabled="" selected="" value="">Select a service</option>
-        <option value="student">fundraisers</option>
-        <option value="job">bespoke catering</option>
-        <option value="learner">themes and props</option>
-        <option value="preferNo">invitations and printworks</option>
-        <option value="other">sound and lighting</option>
-                  </select>
+    
+      <label class="label-for-service" for="dropdown">Choose a service:</label>
+<select id="dropdown" name="role" class="form-control" required="">
+    <option disabled="" selected="" value="">Select a service</option>
+    <option value="student">fundraisers</option>
+    <option value="job">bespoke catering</option>
+    <option value="learner">themes and props</option>
+    <option value="preferNo">invitations and printworks</option>
+    <option value="other">sound and lighting</option>
+</select>
+<br>
+<br>
+<br>
+
             <label for="eventDate">Event Date :</label>
             <input type="date" id="eventDate" required>
       
