@@ -96,12 +96,12 @@ h2 {
   color: white;
 }
 .events{
-  background-color: #343a40;
+  background-color: #3a424a;
   color: white;
   max-width: 300px;
 }
 .Other{
-  background-color: blue;
+  background-color: rgb(62, 62, 164);
   color: white;
 }
 ul {
