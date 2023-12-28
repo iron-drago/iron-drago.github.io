@@ -172,13 +172,14 @@ li {
   }
   .booksilver{
     background-color: rgb(157, 174, 180);
+    color: gold;
     border: 1px black solid;
     display: inline;
     padding: 10px 25px;
     border-radius: 20px;
     text-decoration: none;
     margin-bottom : 100px;
-    color: #000000;
+   
   }
   .booking{
     text-align: center;
